@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    NEW_VERSION= '1.2.0'
+    NEW_VERSION = '1.2.0'
     stages {
         stage("build") {
             steps {
