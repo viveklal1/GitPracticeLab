@@ -1,7 +1,6 @@
 pipeline {
     agent any
-    NEW_VERSION = '1.2.0'
-    stages {
+       stages {
         stage("build") {
             steps {
                echo "Building the application..."
