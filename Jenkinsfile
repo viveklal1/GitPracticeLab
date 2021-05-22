@@ -19,12 +19,5 @@ pipeline {
                 }
             }
         }
-    post {
-        always {
-            // Executes unconditionally after every build. 
-        }
-        Success {}
-        failure{}
-    }
-  }
+     }
 
